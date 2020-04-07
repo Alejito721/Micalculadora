@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/Alejito721/Micalculadora/issues"
   },
-  "homepage": "https://github.com/Alejito721/Micalculadora#readme"
+  "homepage": "https://github.com/Alejito721/Micalculadora#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.1.1",
+    "save-dev": "0.0.1-security"
+  }
+  
 }
